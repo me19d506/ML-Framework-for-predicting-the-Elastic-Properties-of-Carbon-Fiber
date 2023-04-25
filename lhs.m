@@ -8,7 +8,7 @@ f       =zeros(nsample,nv);
 random  =rand(nsample,nv);                          %random numbers 
             
 for k=1: nv
-   indx     = randperm(nsample);                    %random permutation of the integers from 1 to n without repeating elements.
+   indx     = randperm(nsample);                    %random permutation of the integers from 1 to nsample without repeating elements.
    P        = (indx'-random(:,k))/nsample;
    f(:,k)   = min(k) + P.* (max(k)-min(k));
 end
