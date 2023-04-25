@@ -2,7 +2,7 @@
 Steps for running the code:
 1. Install required dependencies: Abaqus, Python, Matlab and Texgen.
 2. Run the following in sequential order
-# datasetcreation.m & lhsu.m:
+# datasetcreation.m & lhs.m:
 Generates input dataset by Latin hypercube sampling (LHS) within specified bounds.
 # creatscript.py :
 Generate individual Python scripts for modeling and simulating RVE in Abaqus. 
