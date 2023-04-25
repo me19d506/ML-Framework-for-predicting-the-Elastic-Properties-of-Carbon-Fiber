@@ -1,8 +1,8 @@
 % The code has been taken from MATLAB CENTRAL file exchange written by Budiman Minasny(https://www.mathworks.com/matlabcentral/fileexchange/4352-latin-hypercube-sampling).
 
 % function for latin hypercube sampling.
-function s=lhsu(xmin,xmax,nsample)
-% s=lhsu(xmin,xmax,nsample)
+function s=lhs(xmin,xmax,nsample)
+% s=lhs(xmin,xmax,nsample)
 % LHS from uniform distribution
 % Input:
 %   xmin    : min of data (1,nvar)
