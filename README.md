@@ -1,4 +1,4 @@
-# GPR based ML-Framework-for-predicting-the-Elastic-Properties-of-UD-lamina
+# GPR based ML-Framework-for-predicting-the-Elastic-Properties-ofcarbon fibers
 Steps for running the code:
 1. Install required dependencies: Abaqus, Python, Matlab and Texgen.
 2. Run the following in sequential order
